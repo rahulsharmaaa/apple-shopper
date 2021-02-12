@@ -1,0 +1,8 @@
+.inlineList {
+  padding: 0px;
+}
+
+.inlineList li {
+  display: inline;
+  margin: 10px;
+}
