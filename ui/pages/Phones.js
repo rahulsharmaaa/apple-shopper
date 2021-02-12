@@ -14,7 +14,7 @@ const Phones = () => {
   return (
     <>
       <h1>List of Phones</h1>
-      {phoneData.length && (
+      {!!phoneData.length && (
         <ul>
           {phoneData.map((phone, i) => (
             <li key={i}>{phone.name}</li>

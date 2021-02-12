@@ -14,7 +14,7 @@ const Watches = () => {
   return (
     <div>
       <h1>List of Watches</h1>
-      {watchData.length && (
+      {!!watchData.length && (
         <ul>
           {watchData.map((watch, i) => (
             <li key={i}>{watch.name}</li>
